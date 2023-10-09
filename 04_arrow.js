@@ -20,11 +20,6 @@ let arrow1 = (argument) => {
  *   - le mot clée "return" est interdis
  */
 
-let arrow2 = (argument) => argument + 1;
-
-
-// let argument = 5;
-// console.log(arrow1(argument));
-// console.log(arrow2(argument));
+let arrow2 = argument => argument + 1;
 
 module.exports = {arrow1, arrow2};

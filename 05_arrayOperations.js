@@ -81,7 +81,7 @@ console.log(sumArray,sum(sumArray));
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
 
-const findUserById = (array, id) => array.find(entry => entry.id === id);
+const findUserById = (array, id) => array.find(entry => entry.id === id)?.name;
 
 let findUserByIdArray = [
   {id: 1, name: 'John'},

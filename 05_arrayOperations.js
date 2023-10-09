@@ -10,9 +10,7 @@
  * 
   */
 
-const multiplyByTwo = (array) => {
-  return array.map(entry => entry * 2);
-}
+const multiplyByTwo = (array) => array.map(entry => entry * 2);
 
 let multiplyByTwoArray = [
   0,
@@ -32,9 +30,7 @@ console.log(multiplyByTwoArray,multiplyByTwo(multiplyByTwoArray));
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
 
-const filterNameStartByA = (array) => {
-  return array.filter(entry => entry.startsWith('A'));
-}
+const filterNameStartByA = (array) => array.filter(entry => entry.startsWith('A'));
 
 let filterNameStartByAArray = [
   "Abcd",
@@ -55,9 +51,7 @@ console.log(filterNameStartByAArray,filterNameStartByA(filterNameStartByAArray))
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
 
-const sum = (array) => {
-  return array.reduce((accumulator, entry) => accumulator + entry, 0);
-}
+const sum = (array) => array.reduce((sum, entry) => sum + entry, 0);
 
 let sumArray = [
   1,
@@ -87,9 +81,7 @@ console.log(sumArray,sum(sumArray));
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
 
-const findUserById = (array, id) => {
-  return array.find(entry => entry.id === id);
-}
+const findUserById = (array, id) => array.find(entry => entry.id === id);
 
 let findUserByIdArray = [
   {id: 1, name: 'John'},

@@ -8,7 +8,10 @@
  *  - for, foreach, while, do while sont interdits
  */
 
-const concat = (arr1, arr2) => {}
+const concat = (arr1, arr2) => {
+    let concat = [arr1,arr2];
+    return concat.flat();
+}
 
 /**
  * utiliser l'opérateur de composition ... afin d'ajouter un élément à un tableau

@@ -12,7 +12,7 @@
  *  - interdiction d'utiliser slice ou splice
  */
 
-const extractFirstTwo = () => {}
+const extractFirstTwo = (array) => {}
 
 /**
  * utilisez la décomposition pour extraire la premiere case du tableau et le reste du tableau

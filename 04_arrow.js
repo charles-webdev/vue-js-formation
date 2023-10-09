@@ -23,8 +23,8 @@ let arrow1 = (argument) => {
 let arrow2 = (argument) => argument + 1;
 
 
-let argument = 5;
-console.log(arrow1(argument));
-console.log(arrow2(argument));
+// let argument = 5;
+// console.log(arrow1(argument));
+// console.log(arrow2(argument));
 
 module.exports = {arrow1, arrow2};
